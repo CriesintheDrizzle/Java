@@ -4,6 +4,7 @@
  * @creat 2023-10-29-15:40
  * @function
  */
+// public类是什么名称，则其文件名就是什么
 public class firstcode {
     /**
      * //这是 java 的快速入门， 演示 java 的开发步骤
@@ -16,12 +17,15 @@ public class firstcode {
      * //6. ;表示语句结束
      */
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        //System.out.println("Hello World!");
+        //练习：
+        System.out.println("... is studying mathmatic");
         Dog name1 = new Dog();
         System.out.println(name1);
     }
 }
 
+// 一个源文件中只能有一个public类，但其他类不限，每个类编译后都对应一个class文件
 class Dog {
     public static void main(String[] args) {
         System.out.println("hello，小狗");
